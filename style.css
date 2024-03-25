@@ -3,7 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+.GamePPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
+#multiplayerBtn, #aiBtn {
+    padding: 20px 40px; 
+    font-size: 20px; 
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 :root {
     --orange: #170e0e;
     --winning-blocks: #ffffff;
