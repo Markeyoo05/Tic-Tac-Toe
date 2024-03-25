@@ -6,3 +6,4 @@
         document.getElementById('aiBtn').addEventListener('click', function() {
             window.location.href = 'GamePanel/AI.html';
         });
+      

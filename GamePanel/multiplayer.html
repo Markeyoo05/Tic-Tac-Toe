@@ -10,13 +10,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="../style.css">
+    
+   
+    
 </head>
 <body>
     <div class="container">
         <h1 id="playerText">Tic Tac Toe</h1>
         
-        <button id="restartBtn">Restart</button>
-
+        <div class="button-container">
+            <button id="restartBtn">Restart</button>
+            <button id="panel">Game Panel</button>
+        </div>
         <div id="gameboard">
             <div class="box" id="0"></div>
             <div class="box" id="1"></div>
@@ -33,7 +38,13 @@
             <p id="player2Score">Player2(O): 0</p>
         </div>
     </div>
-    
     <script src="MultiplayerMode.js"></script>
+   
+  
 </body>
+<script>
+    document.getElementById("panel").addEventListener("click", function() {
+        window.location.href = "../index.html"; // Replace "https://example.com" with the URL you want to navigate to
+    });
+</script>
 </html>
